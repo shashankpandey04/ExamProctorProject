@@ -34,15 +34,3 @@ class ProctorLog extends Model
         return $this->belongsTo(Exam::class);
     }
 }
-<?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class ProctorLog extends Model
-{
-    /** @use HasFactory<\Database\Factories\ProctorLogFactory> */
-    use HasFactory;
-}
